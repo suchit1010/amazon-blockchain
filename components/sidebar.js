@@ -1,9 +1,12 @@
 import React from 'react'
+import { ConnectButton } from 'web3uikit'
 
-const sidebar = () => {
+const Sidebar = () => {
   return (
-    <div>sidebar</div>
+    <div>
+        <ConnectButton/>
+    </div>
   )
 }
 
-export default sidebar
+export default Sidebar

@@ -1964,7 +1964,17 @@
     "@web3uikit/styles" "*"
     react-router-dom "^6.3.0"
 
-"@web3uikit/icons@*":
+"@web3uikit/core@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@web3uikit/core/-/core-0.1.13.tgz#0d4bff8ba2f495ba1c3765e425e51cdcc7f1951f"
+  integrity sha512-rVoRu5qDp8f84XRhIupkSUsVy1MtwA88dOTp1AbCX8mvz9W/eq4Erh9z5H6202RaLFihRK6vbh2acR90FLFmYw==
+  dependencies:
+    "@web3uikit/config" "*"
+    "@web3uikit/icons" "*"
+    "@web3uikit/styles" "*"
+    react-router-dom "^6.3.0"
+
+"@web3uikit/icons@*", "@web3uikit/icons@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@web3uikit/icons/-/icons-0.1.12.tgz#28dc98e617d41ba02d7bcdc1b8fc90fde4ae9f91"
   integrity sha512-HwBjm+uUXxbKNWocOto7cCI9WG6qZj7kWud9cOUfuvKA578m6sxrJWs2e+9ZxrPohPfMG/EK4y2hb2hOzzqZew==
@@ -1978,7 +1988,7 @@
   dependencies:
     "@web3uikit/config" "*"
 
-"@web3uikit/web3@*":
+"@web3uikit/web3@*", "@web3uikit/web3@^0.1.9":
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/@web3uikit/web3/-/web3-0.1.9.tgz#ef82d065befc461a037d294543f435eee09930b6"
   integrity sha512-6N0UBo1HmhXRB4pom1m+WKMcGJ4PLcqHiVtKjgFX2R3NjAkob/+kWh1XCU/QHOBQmFdvqzgF6n7kbQMEJP+2tg==
@@ -4883,6 +4893,23 @@ moment@^2.29.4:
   version "2.29.4"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
+moralis-v1@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/moralis-v1/-/moralis-v1-1.11.0.tgz#fc8f5055d14b91c8301337ab58b331fa6e4b4f60"
+  integrity sha512-6FxKTdh1kOLme+R5Z6kIT++MHwZzTrYGhiS/E7hRnapomY423RThrxsnYgs7XnLEe8g2TLvA4Sx0+DIgwYWTjg==
+  dependencies:
+    "@babel/runtime" "7.16.7"
+    "@babel/runtime-corejs3" "7.16.8"
+    "@metamask/detect-provider" "^1.2.0"
+    axios "0.26.1"
+    ethers "5.6.0"
+    react-native-crypto-js "1.0.0"
+    uuid "^8.3.2"
+    ws "^8.3.0"
+    xmlhttprequest "1.8.0"
+  optionalDependencies:
+    crypto-js "4.1.1"
 
 moralis@^1.8.1:
   version "1.11.0"
