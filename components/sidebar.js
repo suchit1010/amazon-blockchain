@@ -9,10 +9,21 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import { ConnectButton } from 'web3uikit'
 import { AiOutlineHistory } from 'react-icons/ai'
 import Link from 'next/link'
+import { AmazonContext } from '../context/AmazonContext'
+
+//const isAuthenticated = true
+//const nickname =''
+//const username = ' Rahul '
+
+// start using hooks 
+// destructure our context
 
 
-const isAuthenticated = true
-const username = ' Rahul '
+
+
+
+
+
 const Sidebar = () => {
 
   const styles={
@@ -30,6 +41,19 @@ const Sidebar = () => {
     username: `flex items-center w-full justify-center`,
     setNickname: `text-lg font-bold flex flex-1 items-center mt-[20px] mb-[20px] text-white`,
   }
+
+  const {
+
+    isAuthenticated,
+    nickname,
+    setNickname,
+    username,
+    setusername,
+    handleSetUsername
+  
+  
+  
+  } = useContext(AmazonContext)
    
   return (
     <div className={styles.container}>
@@ -74,6 +98,9 @@ const Sidebar = () => {
           <ConnectButton />
         </div>
       </div>
+
+
+    
       <div className={styles.menu}>
         <Link href='/'>
           <div className={styles.menuItem}>
