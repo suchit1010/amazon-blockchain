@@ -11,19 +11,12 @@ import { AiOutlineHistory } from 'react-icons/ai'
 import Link from 'next/link'
 import { AmazonContext } from '../context/AmazonContext'
 
-//const isAuthenticated = true
-//const nickname =''
-//const username = ' Rahul '
+const isAuthenticated = false
+const nickname =""
+const username = "Rahul"
 
 // start using hooks 
 // destructure our context
-
-
-
-
-
-
-
 const Sidebar = () => {
 
   const styles={
